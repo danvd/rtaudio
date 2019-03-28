@@ -38,7 +38,7 @@ option(RTAUDIO_BUILD_STATIC_LIBS "Compile library static lib." TRUE)
 option(RTAUDIO_BUILD_TESTING "Compile test programs." TRUE)
 option(RTAUDIO_BUILD_PYTHON "Build PyRtAudio python bindings" OFF)
 set(CMAKE_BUILD_TYPE "Release" CACHE STRING "Build type (Release,Debug)")
-set(RTAUDIO_TARGETNAME_UNINSTALL "uninstall" CACHE STRING "Name of 'uninstall' build target")
+set(RTAUDIO_TARGETNAME_UNINSTALL "rtaudio_uninstall" CACHE STRING "Name of 'uninstall' build target")
 
 # API Options
 option(RTAUDIO_API_DS "Build DirectSound API" OFF)
